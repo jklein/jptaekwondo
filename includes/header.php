@@ -4,7 +4,10 @@ $page = substr($_SERVER['SCRIPT_NAME'], strrpos($_SERVER['SCRIPT_NAME'], '/') + 
 ?><!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="utf-8" />
+        <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+        <meta name="description" content="JP Taekwondo is the premier Martial Arts Studio in Jamaica Plain.">
+        <meta name="keywords" content="TKD,Taekwondo,Jamaica Plain,Martial Arts">
+
         <title>JP Taekwondo</title>
 
         <link href="assets/rounde_bootstrap/css/bootstrap.css" rel="stylesheet">
@@ -13,7 +16,7 @@ $page = substr($_SERVER['SCRIPT_NAME'], strrpos($_SERVER['SCRIPT_NAME'], '/') + 
         <link href="assets/rounde_bootstrap/css/font-awesome.css" rel="stylesheet">
         <link href="assets/rounde_bootstrap/css/animate.css" rel="stylesheet">
         <link href="assets/rounde_bootstrap/css/prettyPhoto.css" rel="stylesheet">
-
+        <link rel="icon" href="/favicon.ico" type="image/x-icon" />
     </head>
     <body>
         <div id="fb-root"></div>
