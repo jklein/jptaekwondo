@@ -1,4 +1,4 @@
-jptaekwondo
+JP Taekwondo
 ===========
 
-The JP Taekwondo Website
+The JP Taekwondo Website at jptaekwondo.com
