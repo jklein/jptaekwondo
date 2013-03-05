@@ -22,7 +22,6 @@ $page = substr($_SERVER['SCRIPT_NAME'], strrpos($_SERVER['SCRIPT_NAME'], '/') + 
         <div id="fb-root"></div>
         <script>
             (function(d, s, id) {
-                debugger;
               var js, fjs = d.getElementsByTagName(s)[0];
               if (d.getElementById(id)) return;
               js = d.createElement(s); js.id = id;
@@ -72,6 +71,11 @@ $page = substr($_SERVER['SCRIPT_NAME'], strrpos($_SERVER['SCRIPT_NAME'], '/') + 
                         </div>
                     </div>
                 </div>
+                <?php
+                if ($page == 'announcements.php') {
+                    echo '<img src="assets/rounde_bootstrap/images/divider_shadow.png" />';
+                }
+                ?>
             </div>
         </section>
         <!-- End page header -->
