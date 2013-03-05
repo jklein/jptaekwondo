@@ -19,6 +19,7 @@ $page = substr($_SERVER['SCRIPT_NAME'], strrpos($_SERVER['SCRIPT_NAME'], '/') + 
         <div id="fb-root"></div>
         <script>
             (function(d, s, id) {
+                debugger;
               var js, fjs = d.getElementsByTagName(s)[0];
               if (d.getElementById(id)) return;
               js = d.createElement(s); js.id = id;
@@ -57,3 +58,17 @@ $page = substr($_SERVER['SCRIPT_NAME'], strrpos($_SERVER['SCRIPT_NAME'], '/') + 
             </div>
         </header>
         <!-- End header -->
+
+        <!-- Start page header -->
+        <section class="section-page-header">
+            <div class="container">
+                <div class="row">
+                    <div class="span12">
+                        <div class="page-header">
+                            <h4>— <?php echo $page_name; ?> —</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End page header -->

@@ -1,7 +1,8 @@
 <?php
+$page_name = 'CONTACT';
+
 require 'includes/header.php';
 ?>
-
 <!-- Start contact -->
 <section class="contact">
     <div class="container">

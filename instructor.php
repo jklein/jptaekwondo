@@ -1,5 +1,5 @@
 <?php
-$page_name = 'HOME';
+$page_name = 'INSTRUCTOR';
 
 require 'includes/header.php';
 ?>

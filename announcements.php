@@ -1,12 +1,9 @@
 <?php
-$page_name = 'HOME';
+$page_name = 'ANNOUNCEMENTS';
 
 require 'includes/header.php';
 ?>
 
-
-
 <?php
-
 require 'includes/footer.php';
 ?>
