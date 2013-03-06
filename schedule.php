@@ -36,9 +36,9 @@ require 'includes/header.php';
                 </tr>
                 <tr>
                     <td>15:50-16:30</td>
-                    <td class="under_seven">Under 7 Years Old</td>
+                    <td class="under_seven">Little Tigers<br />(under 7 years old)</td>
                     <td></td>
-                    <td class="under_seven">Under 7 Years Old</td>
+                    <td class="under_seven">Little Tigers<br />(under 7 years old)</td>
                     <td></td>
                     <td></td>
                     <td></td>
@@ -46,9 +46,9 @@ require 'includes/header.php';
                 <tr>
                     <td>16:30-17:15</td>
                     <td class="kids_a">Kids A</td>
-                    <td class="under_seven">Under 7 Years Old</td>
+                    <td class="under_seven">Little Tigers<br />(under 7 years old)</td>
                     <td class="kids_a">Kids A</td>
-                    <td class="under_seven">Under 7 Years Old</td>
+                    <td class="under_seven">Little Tigers<br />(under 7 years old)</td>
                     <td></td>
                     <td></td>
                 </tr>
@@ -58,7 +58,7 @@ require 'includes/header.php';
                     <td class="kids_b">Kids B</td>
                     <td></td>
                     <td class="kids_b">Kids B</td>
-                    <td></td>
+                    <td class="kids_sparring">Kids Sparring</td>
                     <td></td>
                 </tr>
                 <tr>

@@ -38,6 +38,9 @@ h1, h2, h3, h4, h5, h6 {
 .grid_schedule .adult {
     background-color:#99E699;
 }
+.grid_schedule .kids_sparring {
+    background-color: #A3E0FF;
+}
 .grid_schedule .adult_sparring {
     background-color:#FFC2B2;
 }
