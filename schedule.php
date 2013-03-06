@@ -23,7 +23,7 @@ require 'includes/header.php';
                     <td></td>
                     <td></td>
                     <td></td>
-                    <td class="adult">Adult</td>
+                    <td class="adult">Adults &amp; Teens</td>
                 </tr>
                 <tr class="blank">
                     <td>&nbsp;</td>
@@ -45,9 +45,9 @@ require 'includes/header.php';
                 </tr>
                 <tr>
                     <td>16:30-17:15</td>
-                    <td class="kids_a">Kids A</td>
+                    <td class="kids_a">Children (A)</td>
                     <td class="under_seven">Little Tigers<br />(under 7 years old)</td>
-                    <td class="kids_a">Kids A</td>
+                    <td class="kids_a">Children (A)</td>
                     <td class="under_seven">Little Tigers<br />(under 7 years old)</td>
                     <td></td>
                     <td></td>
@@ -55,27 +55,27 @@ require 'includes/header.php';
                 <tr>
                     <td>17:15-18:00</td>
                     <td></td>
-                    <td class="kids_b">Kids B</td>
+                    <td class="kids_b">Children (B)</td>
                     <td></td>
-                    <td class="kids_b">Kids B</td>
-                    <td class="kids_sparring">Kids Sparring</td>
+                    <td class="kids_b">Children (B)</td>
+                    <td class="kids_sparring">Children Sparring</td>
                     <td></td>
                 </tr>
                 <tr>
                     <td>18:00-19:00</td>
-                    <td class="adult">Adult</td>
-                    <td class="kids_c">Kids C</td>
+                    <td class="adult">Adults &amp; Teens</td>
+                    <td class="kids_c">Children (C)</td>
                     <td></td>
-                    <td class="kids_c">Kids C</td>
-                    <td class="adult_sparring">Adult Sparring</td>
+                    <td class="kids_c">Children (C)</td>
+                    <td class="adult">Adult Sparring</td>
                     <td></td>
                 </tr>
                 <tr>
                     <td>19:00-20:00</td>
                     <td></td>
-                    <td class="adult">Adult</td>
+                    <td class="adult">Adults &amp; Teens</td>
                     <td></td>
-                    <td class="adult">Adult</td>
+                    <td class="adult">Adults &amp; Teens</td>
                     <td></td>
                     <td></td>
                 </tr>

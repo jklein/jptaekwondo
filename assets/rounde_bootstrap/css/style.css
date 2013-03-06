@@ -24,25 +24,22 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .grid_schedule .under_seven {
-    background-color:#FFFFCC;
+    background-color:#FFE0B2;
 }
 .grid_schedule .kids_a {
     background-color:#B2D1FF;
 }
 .grid_schedule .kids_b {
-    background-color:#F5CCEB;
+    background-color:#B2D1FF;
 }
 .grid_schedule .kids_c {
-    background-color:#FFE0B2;
+    background-color:#B2D1FF;
 }
 .grid_schedule .adult {
     background-color:#99E699;
 }
 .grid_schedule .kids_sparring {
-    background-color: #A3E0FF;
-}
-.grid_schedule .adult_sparring {
-    background-color:#FFC2B2;
+    background-color: #B2D1FF;
 }
 .grid_schedule .blank td {
     background-color: #636363;
