@@ -57,6 +57,9 @@ h1, h2, h3, h4, h5, h6 {
 .carousel .item > img {
     margin:auto;
 }
+.contact .alert {
+    margin-left: 30px;
+}
 
 /* HTTP 404 */
 .http-404 {
