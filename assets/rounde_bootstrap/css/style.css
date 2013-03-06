@@ -48,12 +48,15 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #636363;
     padding:2px;
 }
+/* End Schedule page */
 
-
+/* Other CSS */
 .navbar .brand {
     padding:0;
 }
-
+.carousel .item > img {
+    margin:auto;
+}
 
 /* HTTP 404 */
 .http-404 {
