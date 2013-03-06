@@ -62,20 +62,24 @@ $page = substr($_SERVER['SCRIPT_NAME'], strrpos($_SERVER['SCRIPT_NAME'], '/') + 
         <!-- End header -->
 
         <!-- Start page header -->
-        <section class="section-page-header">
-            <div class="container">
-                <div class="row">
-                    <div class="span12">
-                        <div class="page-header">
-                            <h4>— <?php echo $page_name; ?> —</h4>
+        <?php
+        if ($page != 'index.php') { ?>
+            <section class="section-page-header">
+                <div class="container">
+                    <div class="row">
+                        <div class="span12">
+                            <div class="page-header">
+                                <h4>— <?php echo $page_name; ?> —</h4>
+                            </div>
                         </div>
                     </div>
+                    <?php
+                    if ($page == 'announcements.php') {
+                        echo '<img src="assets/rounde_bootstrap/images/divider_shadow.png" />';
+                    }
+                    ?>
                 </div>
-                <?php
-                if ($page == 'announcements.php') {
-                    echo '<img src="assets/rounde_bootstrap/images/divider_shadow.png" />';
-                }
-                ?>
-            </div>
-        </section>
+            </section>
+            <?php
+        } ?>
         <!-- End page header -->

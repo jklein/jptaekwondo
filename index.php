@@ -3,6 +3,15 @@ $page_name = 'HOME';
 
 require 'includes/header.php';
 ?>
+<!-- Start welcome-message -->
+<section class="welcome-message">
+    <div class="container">
+        <div class="hero-unit">
+            <h4>Welcome to the home of JP Taekwondo!<br> <small>We hope you find everything you need.  If not, use the contact form to get in touch with us.</small></h4>
+        </div>
+    </div>
+</section>
+<!-- End welcome-message -->
 
 <!-- Start slider -->
 <section class="slider">
