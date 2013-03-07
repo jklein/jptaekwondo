@@ -1,10 +1,10 @@
 <?php
-$page_name = 'MASTER JANG';
-
 require 'includes/header.php';
 ?>
 
-
+<div class="text-center">
+    <img src="assets/JPTKDSTUDIOmasterjang.png"/>
+</div>
 
 <?php
 

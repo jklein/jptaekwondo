@@ -1,6 +1,4 @@
 <?php
-$page_name = 'HOME';
-
 require 'includes/header.php';
 ?>
 <!-- Start welcome-message -->

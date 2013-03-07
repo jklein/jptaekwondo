@@ -65,7 +65,7 @@ date_default_timezone_set('America/New_York');
 
         <!-- Start page header -->
         <?php
-        if ($page != 'index.php') { ?>
+        if (!empty($page_name)) { ?>
             <section class="section-page-header">
                 <div class="container">
                     <div class="row">
