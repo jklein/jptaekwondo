@@ -1,6 +1,8 @@
 <?php
 $page = substr($_SERVER['SCRIPT_NAME'], strrpos($_SERVER['SCRIPT_NAME'], '/') + 1);
 
+date_default_timezone_set('America/New_York');
+
 ?><!DOCTYPE html>
 <html lang="en">
     <head>

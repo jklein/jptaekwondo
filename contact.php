@@ -60,7 +60,13 @@ if (!empty($_POST['submit'])) {
                      </dd>
                      <dt>E-mail:</dt>
                      <dd><a href="mailto:jptaekwondo@gmail.com">jptaekwondo@gmail.com</a></dd>
+                     <p style="clear:both;margin:0"></p>
                  </dl>
+                 <hr />
+                 <div class="find-facebook">
+                    <h4>FIND US ON FACEBOOK</h4>
+                     <div class="fb-like-box" data-href="http://www.facebook.com/JPTaekwondo" data-width="292" data-show-faces="false" data-stream="false" data-header="true"></div>
+                </div>
             </div>
             <div class="span8 contact-form">
                 <h4>SEND US A MESSAGE</h4>
@@ -89,7 +95,6 @@ if (!empty($_POST['submit'])) {
                     </div>
                 </form>
             </div>
-        </div>
     </div>
 </section>
 <!-- End contact -->
