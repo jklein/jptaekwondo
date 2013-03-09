@@ -44,11 +44,15 @@ date_default_timezone_set('America/New_York');
                             <li <?php echo ($page == 'index.php' ? 'class="active"' : '');?>>
                                 <a href="index.php">Home</a>
                             </li>
+                            <li class="dropdown" <?php echo ($page == 'instructor.php' || $page == 'studio.php' ? 'class="active"' : '');?>>
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Who We Are <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="instructor.php">Instructor</a></li>
+                                    <li><a href="studio.php">Studio</a></li>
+                                </ul>
+                            </li>
                             <li <?php echo ($page == 'schedule.php' ? 'class="active"' : '');?>>
                                 <a href="schedule.php">Schedule</a>
-                            </li>
-                            <li <?php echo ($page == 'instructor.php' ? 'class="active"' : '');?>>
-                                <a href="instructor.php">Instructor</a>
                             </li>
                             <li <?php echo ($page == 'announcements.php' ? 'class="active"' : '');?>>
                                 <a href="announcements.php">Announcements</a>
@@ -76,7 +80,7 @@ date_default_timezone_set('America/New_York');
                         </div>
                     </div>
                     <?php
-                    if ($page == 'announcements.php') {
+                    if ($page == 'announcements.php' || $page == 'studio.php') {
                         echo '<img src="assets/rounde_bootstrap/images/divider_shadow.png" />';
                     }
                     ?>
