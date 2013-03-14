@@ -1,7 +1,17 @@
 <?php
 require 'includes/header.php';
 ?>
-<!-- Start welcome-message -->
+<style>
+    .footer {
+        margin-top: 0;
+    }
+</style>
+
+<div class="text-center">
+    <img src="assets/homepage_image.jpg" />
+</div>
+
+<!-- Old Homepage
 <section class="welcome-message">
     <div class="container">
         <div class="hero-unit">
@@ -9,9 +19,7 @@ require 'includes/header.php';
         </div>
     </div>
 </section>
-<!-- End welcome-message -->
 
-<!-- Start slider -->
 <section class="slider">
     <div class="container">
         <div class="well">
@@ -27,14 +35,14 @@ require 'includes/header.php';
                         <img src="assets/jptkd29.jpg" />
                     </div>
                 </div>
-                <!-- Carousel nav -->
+                Carousel nav
                 <a class="carousel-control left" href="#myCarousel" data-slide="prev"><i class="icon-chevron-left"></i></a>
                 <a class="carousel-control right" href="#myCarousel" data-slide="next"><i class="icon-chevron-right"></i></a>
             </div>
         </div>
     </div>
 </section>
-<!-- End slider -->
+End Old Homepage -->
 
 <?php
 
