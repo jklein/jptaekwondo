@@ -71,9 +71,11 @@ date_default_timezone_set('America/New_York');
                             <li <?php echo ($page == 'schedule.php' ? 'class="active"' : '');?>>
                                 <a href="schedule.php">Schedule</a>
                             </li>
+                            <!--
                             <li <?php echo ($page == 'announcements.php' ? 'class="active"' : '');?>>
                                 <a href="announcements.php">Announcements</a>
                             </li>
+                            -->
                             <li <?php echo ($page == 'contact.php' ? 'class="active"' : '');?>>
                                 <a href="contact.php">Contact Us</a>
                             </li>
