@@ -60,10 +60,38 @@ h1, h2, h3, h4, h5, h6 {
 .text-center {
     text-align: center;
 }
+.text-left {
+    text-align: left;
+}
 .text-center h5 {
     float:left;
     margin-left:12%;
 }
+.c {
+    clear:both;
+}
+.jp_tkd_context {
+    width:800px;
+}
+.jp_tkd_context .row {
+    margin:30px 0;
+}
+
+.instructor_bio{
+    padding:10px;
+}
+.img-left {
+    float:left;
+    margin-right:10px;
+}
+.img-right {
+    float:right;
+    margin-left:10px;
+}
+.center_paragraph {
+    margin-top:65px;
+}
+
 /* HTTP 404 */
 .http-404 {
     text-align: center;

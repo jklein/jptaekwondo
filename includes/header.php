@@ -61,6 +61,13 @@ date_default_timezone_set('America/New_York');
                                     <li><a href="studio.php">Studio</a></li>
                                 </ul>
                             </li>
+                            <li class="dropdown" <?php echo ($page == 'context.php' || $page == 'philosophy.php' ? 'class="active"' : '');?>>
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Why Train With Us <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="context.php">JP TKD In Context</a></li>
+                                    <li><a href="philosophy.php">Philosophy</a></li>
+                                </ul>
+                            </li>
                             <li <?php echo ($page == 'schedule.php' ? 'class="active"' : '');?>>
                                 <a href="schedule.php">Schedule</a>
                             </li>
@@ -90,7 +97,10 @@ date_default_timezone_set('America/New_York');
                         </div>
                     </div>
                     <?php
-                    if ($page == 'announcements.php' || $page == 'studio.php') {
+                    if ($page == 'announcements.php'
+                        || $page == 'studio.php'
+                        || $page == 'instructor.php'
+                        || $page == 'context.php') {
                         echo '<img src="assets/rounde_bootstrap/images/divider_shadow.png" />';
                     }
                     ?>
