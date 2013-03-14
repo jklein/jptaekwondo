@@ -2,6 +2,8 @@
 $page_name = 'ABOUT MASTER JANG';
 
 require 'includes/header.php';
+
+$years_old =  date_diff(date_create(), date_create('February 1st, 2010'))->format('%y-year-old');
 ?>
 
 <div class="container">
@@ -20,7 +22,7 @@ require 'includes/header.php';
         students and professionals (Yonsei University, UC-Berkeley, Brown University, Icelandic National Team).
         He currently teaches the Harvard University Taekwondo Club in addition to his private studio.</p>
 
-        <p>Master Jang lives in West Roxbury with his wife and two-year-old daughter. When not teaching, he
+        <p>Master Jang lives in West Roxbury with his wife and <?php echo $years_old;?> daughter. When not teaching, he
         enjoys spending time with his family, fiddling around with his MacBook Pro, and playing the electric
         guitar.</p>
     </div>
