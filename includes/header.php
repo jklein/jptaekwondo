@@ -66,6 +66,7 @@ date_default_timezone_set('America/New_York');
                                 <ul class="dropdown-menu">
                                     <li><a href="context.php">JP TKD In Context</a></li>
                                     <li><a href="philosophy.php">Philosophy</a></li>
+                                    <li><a href="curriculum.php">Curriculum</a></li>
                                 </ul>
                             </li>
                             <li <?php echo ($page == 'schedule.php' ? 'class="active"' : '');?>>
@@ -99,10 +100,8 @@ date_default_timezone_set('America/New_York');
                         </div>
                     </div>
                     <?php
-                    if ($page == 'announcements.php'
-                        || $page == 'studio.php'
-                        || $page == 'instructor.php'
-                        || $page == 'context.php') {
+                    if ($page != 'schedule.php'
+                        && $page != 'contact.php') {
                         echo '<img src="assets/rounde_bootstrap/images/divider_shadow.png" />';
                     }
                     ?>
