@@ -20,7 +20,7 @@ if (!empty($_POST['submit'])) {
         'Reply-To: ' . $email . "\r\n" .
         'X-Mailer: PHP/' . phpversion();
 
-        mail('jonathan.n.klein@gmail.com', $subject, $message, $headers);
+        mail('jptaekwondo@gmail.com', $subject, $message, $headers);
         $success = true;
     } else {
         $success = false;
