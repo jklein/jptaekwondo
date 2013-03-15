@@ -26,6 +26,8 @@
                     $container.isotope('reLayout');
                 });
             });
+
+            $('body').on('touchstart.dropdown', '.dropdown-menu', function (e) { e.stopPropagation(); });
         </script>
 
     </body>
