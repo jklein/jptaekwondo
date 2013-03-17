@@ -2,12 +2,14 @@
     # Activate mod_expires for this directory
     ExpiresActive on
 
-    # locally cache common image types for 7 days
+    # locally cache common image types for 45 days
     ExpiresByType image/jpg "access plus 45 days"
     ExpiresByType image/jpeg "access plus 45 days"
     ExpiresByType image/gif "access plus 45 days"
     ExpiresByType image/png "access plus 45 days"
 
-    # cache CSS files for 24 hours
-    ExpiresByType text/css "access plus 24 hours"
+    # cache CSS/JS files for 30 days
+    ExpiresByType text/css "access plus 30 days"
+    ExpiresByType application/javascript "access plus 30 days"
+    ExpiresByType text/javascript "access plus 30 days"
 </IfModule>
