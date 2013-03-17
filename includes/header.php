@@ -47,7 +47,7 @@ date_default_timezone_set('America/New_York');
                 <div class="navbar">
                     <div class="navbar-inner">
                         <div class="brand-wrapper">
-                            <a class="brand" href="index.php"><img src="assets/jptkd_logo.gif" /></a>
+                            <a class="brand" href="index.php"><img src="assets/jptkd_logo.png" /></a>
                         </div>
                         <ul class="nav">
                             <li <?php echo ($page == 'index.php' ? 'class="active"' : '');?>>
