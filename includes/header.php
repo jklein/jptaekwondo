@@ -19,9 +19,7 @@ date_default_timezone_set('America/New_York');
         <link href="assets/rounde_bootstrap/css/animate.css" rel="stylesheet">
         <link href="assets/rounde_bootstrap/css/prettyPhoto.css" rel="stylesheet">
         <link rel="icon" href="/favicon.ico" type="image/x-icon" />
-    </head>
-    <body>
-        <div id="fb-root"></div>
+
         <script>
             (function(d, s, id) {
               var js, fjs = d.getElementsByTagName(s)[0];
@@ -41,7 +39,9 @@ date_default_timezone_set('America/New_York');
             var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
             })();
         </script>
-
+    </head>
+    <body>
+        <div id="fb-root"></div>
         <!-- Start header -->
         <header class="header">
             <div class="container">
