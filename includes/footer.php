@@ -10,7 +10,7 @@
         </footer>
         <!-- End footer -->
 
-        <script src="assets/rounde_bootstrap/js/jquery-1.8.3.js"></script>
+        <script src="assets/rounde_bootstrap/js/jquery-1.8.3.min.js"></script>
         <script src="assets/rounde_bootstrap/js/bootstrap.min.js"></script>
         <script src="assets/rounde_bootstrap/js/jquery.onecarousel.min.js"></script>
         <script type="text/javascript">
