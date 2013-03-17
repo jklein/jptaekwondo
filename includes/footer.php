@@ -12,15 +12,8 @@
 
         <script src="assets/rounde_bootstrap/js/jquery-1.8.3.min.js"></script>
         <script src="assets/rounde_bootstrap/js/bootstrap.min.js"></script>
-        <script src="assets/rounde_bootstrap/js/jquery.onecarousel.min.js"></script>
         <script type="text/javascript">
             $(document).ready(function () {
-                $('#myCarousel').oneCarousel({
-                    easeIn: 'rotateIn',
-                    interval: 5000,
-                    pause: 'hover'
-                });
-
                 // update columnWidth on window resize
                 $(window).smartresize(function () {
                     $container.isotope('reLayout');
