@@ -15,12 +15,10 @@ date_default_timezone_set('America/New_York');
         <link href="assets/rounde_bootstrap/css/bootstrap.css" rel="stylesheet">
         <link href="assets/rounde_bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
         <link href="assets/rounde_bootstrap/css/style.css" rel="stylesheet">
-        <link href="assets/rounde_bootstrap/css/font-awesome.css" rel="stylesheet">
-        <link href="assets/rounde_bootstrap/css/animate.css" rel="stylesheet">
-        <link href="assets/rounde_bootstrap/css/prettyPhoto.css" rel="stylesheet">
         <link rel="icon" href="/favicon.ico" type="image/x-icon" />
 
         <script>
+        <?php if ($page == 'contact.php') { ?>
             (function(d, s, id) {
               var js, fjs = d.getElementsByTagName(s)[0];
               if (d.getElementById(id)) return;
@@ -28,6 +26,7 @@ date_default_timezone_set('America/New_York');
               js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
               fjs.parentNode.insertBefore(js, fjs);
             }(document, 'script', 'facebook-jssdk'));
+        <?php } ?>
 
             var _gaq = _gaq || [];
             _gaq.push(['_setAccount', 'UA-39188570-1']);
