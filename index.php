@@ -8,7 +8,7 @@ require 'includes/header.php';
 </style>
 
 <div class="text-center">
-    <img src="assets/homepage_image.jpg" />
+    <img src="assets/homepage_image.png" />
 </div>
 
 <!-- Old Homepage
