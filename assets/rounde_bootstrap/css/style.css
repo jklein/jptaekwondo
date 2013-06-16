@@ -47,6 +47,21 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* End Schedule page */
 
+/* Summer schedule */
+.summer {
+    width:50%;
+    background-color: #fff;
+    text-align:center;
+    margin: 10px auto;
+}
+
+.summer th,
+.summer td {
+    padding:5px;
+    border:1px solid gray;
+}
+/* End summer schedule */
+
 /* Other CSS */
 .navbar .brand {
     padding:0;
