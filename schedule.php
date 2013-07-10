@@ -49,8 +49,8 @@ require 'includes/header.php';
                     <td>16:30-17:10</td>
                     <td class="under_seven">Little Tigers<br />(under 7 years old)</td>
                     <td></td>
-                    <td class="under_seven">Little Tigers<br />(under 7 years old)</td>
                     <td></td>
+                    <td class="under_seven">Little Tigers<br />(under 7 years old)</td>
                     <td></td>
                     <td></td>
                 </tr>
@@ -58,8 +58,8 @@ require 'includes/header.php';
                     <td>17:15-18:00</td>
                     <td class="kids_a">Youth</td>
                     <td></td>
-                    <td class="kids_a">Youth</td>
                     <td></td>
+                    <td class="kids_a">Youth</td>
                     <td></td>
                     <td></td>
                 </tr>
