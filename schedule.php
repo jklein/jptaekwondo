@@ -57,18 +57,18 @@ require 'includes/header.php';
                 </tr>
                 <tr>
                     <td>5:15-6:00</td>
-                    <td></td>
+                    <td class="youth_adv">Youth Advanced</td>
                     <td class="kids_a">Youth</td>
-                    <td></td>
+                    <td class="youth_adv">Youth Advanced</td>
                     <td class="kids_a">Youth</td>
                     <td></td>
                 </tr>
                 <tr>
                     <td>6:00-7:00</td>
                     <td class="adult">Adults &amp; Teens</td>
-                    <td class="kids_a">Youth Advanced<br/>(6:05-6:50)</td>
+                    <td class="youth_adv">Youth Advanced<br/>(6:05-6:50)</td>
                     <td></td>
-                    <td class="kids_a">Youth Advanced<br/>(6:05-6:50)</td>
+                    <td class="youth_adv">Youth Advanced<br/>(6:05-6:50)</td>
                     <td></td>
                 </tr>
                 <tr>

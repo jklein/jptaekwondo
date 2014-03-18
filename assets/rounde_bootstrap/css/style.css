@@ -27,7 +27,7 @@ h1, h2, h3, h4, h5, h6 {
     background-color:#FFE0B2;
 }
 .grid_schedule .kids_a {
-    background-color:#B2D1FF;
+    background-color:#CCFFFF;
 }
 .grid_schedule .kids_b {
     background-color:#B2D1FF;
@@ -40,6 +40,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 .grid_schedule .kids_sparring {
     background-color: #B2D1FF;
+}
+.grid_schedule .youth_adv {
+    background-color: #ccc;
 }
 .grid_schedule .blank td {
     background-color: #636363;
