@@ -3,7 +3,7 @@
             <div class="container">
                  <div class="row text-center">
                      <h5>Copyright &copy; <?php echo date('Y');?> JP TKD STUDIO</h5>
-                     <h5>+1 617 477 3478</h5>
+                     <h5><?=$phone_number;?></h5>
                      <h5><a href="mailto:jptaekwondo@gmail.com">jptaekwondo@gmail.com</a></h5>
                  </div>
             </div>

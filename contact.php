@@ -56,7 +56,7 @@ if (!empty($_POST['submit'])) {
                      </dd>
                      <dt>Telephone:</dt>
                      <dd>
-                         +1 617 477 3478
+                         <?=$phone_number;?>
                      </dd>
                      <dt>E-mail:</dt>
                      <dd><a href="mailto:jptaekwondo@gmail.com">jptaekwondo@gmail.com</a></dd>
