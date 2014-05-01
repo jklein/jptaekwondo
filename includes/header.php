@@ -20,7 +20,8 @@ date_default_timezone_set('America/New_York');
         <link rel="icon" href="/favicon.ico" type="image/x-icon" />
 
         <script>
-        <?php if ($page == 'contact.php') { ?>
+        <?php
+        if ($page == 'contact.php') { ?>
             (function(d, s, id) {
               var js, fjs = d.getElementsByTagName(s)[0];
               if (d.getElementById(id)) return;
@@ -28,7 +29,8 @@ date_default_timezone_set('America/New_York');
               js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
               fjs.parentNode.insertBefore(js, fjs);
             }(document, 'script', 'facebook-jssdk'));
-        <?php } ?>
+        <?php
+        } ?>
 
             var _gaq = _gaq || [];
             _gaq.push(['_setAccount', 'UA-39188570-1']);
@@ -70,13 +72,17 @@ date_default_timezone_set('America/New_York');
                                     <li><a href="curriculum.php">Curriculum</a></li>
                                 </ul>
                             </li>
-                            <li class="dropdown" <?php echo ($page == 'schedule.php' || $page == 'summer.php' ? 'class="active"' : '');?>>
+                            <li class="dropdown" <?php echo ($page == 'schedule.php' ? 'class="active"' : '');?>>
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Schedules <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     <li><a href="schedule.php">Standard Schedule</a></li>
-                                    <li><a href="summer.php">Summer Program</a></li>
                                 </ul>
-
+                            </li>
+                            <li class="dropdown" <?php echo ($page == 'summer_2013.php' ? 'class="active"' : '');?>>
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Image Gallery<b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="summer_2013.php">Summer 2013</a></li>
+                                </ul>
                             </li>
                             <li <?php echo ($page == 'contact.php' ? 'class="active"' : '');?>>
                                 <a href="contact.php">Contact Us</a>

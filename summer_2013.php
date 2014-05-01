@@ -1,11 +1,13 @@
 <?php
-$page_name = 'SUMMER PROGRAM';
+$page_name = 'SUMMER PROGRAM 2013';
 
 require 'includes/header.php';
 ?>
 <section class="schedule">
     <div class="container">
         <div class="row">
+            <img src="/assets/jptkd_summer_2013.jpg" alt="">
+            <!--
             <u>Information about the Summer Program:</u><br />
             This intensive program would satisfy students who are looking for an in-depth
             training in Taekwondo. Each session would last for 2 weeks, and we will evaluate at
@@ -84,16 +86,16 @@ require 'includes/header.php';
                 <li>Family Discount : 2nd member and thereafter 10% discount.</li>
                 <li>$100 Deposit is required to hold space.
                 The deposit is not refundable after May 15, 2013.</li>
-                <li>The Summer Taekwondo tuition must be paid in full by June 15, 2013. Tuition will not be refundable after June 30, 2013 under any circumstances.</li>
+                <li>The Summer Taekwondo tuition must be paid in full by June 15, 2013.
+                Tuition will not be refundable after June 30, 2013 under any circumstances.</li>
                 <li>If we have fewer than 5 sign-ups per session, we will cancel that session.</li>
                 <li>The regular membership will be suspended during the time you take the Summer Program.</li>
             </ul>
 
             <p>We are convinced that the Summer Program would further enhance the skills and passion
                 for Taekwondo in your children.</p>
-        </div>
+        </div> -->
     </div>
 </section>
 <?php
 require 'includes/footer.php';
-?>
