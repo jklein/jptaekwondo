@@ -72,10 +72,11 @@ date_default_timezone_set('America/New_York');
                                     <li><a href="curriculum.php">Curriculum</a></li>
                                 </ul>
                             </li>
-                            <li class="dropdown" <?php echo ($page == 'schedule.php' ? 'class="active"' : '');?>>
+                            <li class="dropdown" <?php echo ($page == 'schedule.php' || $page == 'summer.php' ? 'class="active"' : '');?>>
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Schedules <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     <li><a href="schedule.php">Standard Schedule</a></li>
+                                    <li><a href="summer.php">Summer Program</a></li>
                                 </ul>
                             </li>
                             <li class="dropdown" <?php echo ($page == 'summer_2013.php' ? 'class="active"' : '');?>>
