@@ -45,10 +45,10 @@ if (!empty($_POST['submit'])) {
                 </div>
             </div>
             <div class="span4 our-office">
-                <h4>OUR OFFICE</h4>
+                <h4>OUR STUDIO</h4>
                 <hr />
                 <dl>
-                     <dt>Our Office:</dt>
+                     <dt>Address:</dt>
                      <dd>
                          <strong>JP Taekwondo</strong><br>
                          670 Centre St,<br />

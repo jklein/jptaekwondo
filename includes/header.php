@@ -1,7 +1,7 @@
 <?php
 $page = substr($_SERVER['SCRIPT_NAME'], strrpos($_SERVER['SCRIPT_NAME'], '/') + 1);
 
-$phone_number = '+1 617 784 6882';
+$phone_number = '<a href="tel:+1-617-784-6882">+1 617 784 6882</a>';
 
 date_default_timezone_set('America/New_York');
 
