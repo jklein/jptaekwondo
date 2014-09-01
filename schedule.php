@@ -1,4 +1,4 @@
-'<?php
+<?php
 
 $page_name = 'Fall/Spring Schedule - September 2nd 2014 to January 31st 2015';
 //$page_name = 'Summer Schedule - July 7th 2014 to August 31st 2014';
