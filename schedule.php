@@ -1,14 +1,14 @@
-<?php
+'<?php
 
-$page_name = 'Summer Schedule - July 7th 2014 to August 31st 2014';
-$secondary_header = 'Fall/Spring Schedule - September 2nd 2014 to January 31st 2015';
-
+$page_name = 'Fall/Spring Schedule - September 2nd 2014 to January 31st 2015';
+//$page_name = 'Summer Schedule - July 7th 2014 to August 31st 2014';
 
 require 'includes/header.php';
 ?>
 <section class="schedule">
     <div class="container">
         <div class="row">
+            <!--  Summer Schedule
             <table class="grid_schedule">
                 <tr>
                     <th>&nbsp;</th>
@@ -86,6 +86,7 @@ require 'includes/header.php';
                     </div>
                 </div>
             </div>
+            -->
 
 
             <table class="grid_schedule">
