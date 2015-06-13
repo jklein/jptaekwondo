@@ -1,5 +1,5 @@
 <?php
-$page_name = 'SUMMER PROGRAM 2014';
+$page_name = 'SUMMER PROGRAM 2015';
 
 require 'includes/header.php';
 ?>
@@ -51,15 +51,15 @@ require 'includes/header.php';
             <table class="summer">
                 <tr>
                     <td>Session 1</td>
-                    <td>7/7 - 7/18</td>
+                    <td>7/6 - 7/17</td>
                     <td>Session 2</td>
-                    <td>7/21 - 8/1</td>
+                    <td>7/20 - 7/31</td>
                 </tr>
                 <tr>
                     <td>Session 3</td>
-                    <td>8/4 - 8/15</td>
+                    <td>8/3 - 8/14</td>
                     <td>Session 4</td>
-                    <td>8/18 - 8/29</td>
+                    <td>8/17 - 8/28</td>
                 </tr>
             </table>
 
@@ -71,22 +71,32 @@ require 'includes/header.php';
                     <td>Full Day (9:00am - 3:00pm)</td>
                 </tr>
                 <tr>
-                    <td>1 Session (2 weeks)</td>
-                    <td>$475</td>
-                    <td>$750</td>
+                    <td><strong>1 Session (2 weeks)</strong></td>
+                    <td>$525</td>
+                    <td>$795</td>
+                </tr>
+                <tr>
+                    <td>1 week</td>
+                    <td>$300</td>
+                    <td>$425</td>
+                </tr>
+                <tr>
+                    <td>1 day</td>
+                    <td>$70</td>
+                    <td>$100</td>
                 </tr>
             </table>
 
             <strong>1 Session rate includes : Promotion test fee, registration fee,
-                Summer JP taekwondo T-shirt</strong>
+                Summer JP taekwondo T-shirt & belt</strong>
 
             <ul>
+                <li>Early Bird : 5% discount (Full paid, until February 15)</li>
                 <li>Family Discount : 2nd member and thereafter 5% discount.</li>
-                <li>$100 Deposit is required to hold space (the deposit is not refundable).</li>
-                <li>The Summer Taekwondo tuition must be paid in full by June 15, 2014.
-                Tuition will not be refundable after June 30, 2014 under any circumstances.</li>
+                <li>$100 Deposit is required to hold space (the deposit is not refundable after March 31st).</li>
+                <li>The Summer Taekwondo tuition must be paid in full by June 15, 2015.
+                Tuition will not be refundable after June 15 under any circumstances.</li>
                 <li>If we have fewer than 5 sign-ups per session, we will cancel that session.</li>
-                <li>The regular membership will be suspended during the time you take the Summer Program.</li>
             </ul>
 
             <p>We are convinced that the Summer Program will further enhance the skills and passion
