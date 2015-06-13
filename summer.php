@@ -39,13 +39,9 @@ require 'includes/header.php';
                 <tr>
                     <td>4</td>
                     <td>Self-defense and Performance</td>
-                    <td>1:00</td>
+                    <td>1:20</td>
                 </tr>
             </table>
-
-            <p>Drop-off time is 8:45-9:00 am, and pick-up is 3:00-3:30 pm. You may choose to
-            enroll for a half day or a full day.</p>
-
 
             <div style="text-align:center;"><u>Summer Session Options</u></div>
             <table class="summer">
@@ -67,8 +63,8 @@ require 'includes/header.php';
             <table class="summer">
                 <tr>
                     <td>&nbsp;</td>
-                    <td>Half Day (9:00am - 12:15pm)</td>
-                    <td>Full Day (9:00am - 3:00pm)</td>
+                    <td>Half Day (9:00am - 1:00pm)</td>
+                    <td>Full Day (9:00am - 3:20pm)</td>
                 </tr>
                 <tr>
                     <td><strong>1 Session (2 weeks)</strong></td>
