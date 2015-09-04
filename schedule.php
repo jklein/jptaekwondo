@@ -1,6 +1,6 @@
 <?php
 
-$page_name = 'Summer Schedule - July 6th 2015 to August 28st 2015';
+$page_name = 'Fall Schedule - August 31st, 2015 to June 20th, 2016';
 // $secondary_header = 'Summer Schedule - July 6th 2015 to August 28st 2015';
 
 require 'includes/header.php';
@@ -8,6 +8,8 @@ require 'includes/header.php';
 <section class="schedule">
     <div class="container">
         <div class="row">
+
+            <!-- Summer
             <table class="grid_schedule">
                 <tr>
                     <th>&nbsp;</th>
@@ -75,7 +77,7 @@ require 'includes/header.php';
                     <td></td>
                 </tr>
             </table>
-<!--
+
             <div class="container section-page-header">
                 <div class="row">
                     <div class="span12">
@@ -85,8 +87,9 @@ require 'includes/header.php';
                     </div>
                 </div>
             </div>
+            -->
 
-<table class="grid_schedule">
+            <table class="grid_schedule">
                 <tr>
                     <th>&nbsp;</th>
                     <th>Monday</th>
@@ -95,6 +98,24 @@ require 'includes/header.php';
                     <th>Thursday</th>
                     <th>Friday</th>
                     <th>Saturday</th>
+                </tr>
+                <tr>
+                    <td>9:30-10:10</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="under_seven">Little Tigers (TBD)</td>
+                </tr>
+                <tr>
+                    <td>10:10-10:55</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="kids_a">Youth (TBD)</td>
                 </tr>
                 <tr>
                     <td>11:00-12:00</td>
@@ -145,10 +166,10 @@ require 'includes/header.php';
                 </tr>
                 <tr>
                     <td>6:00-7:00</td>
-                    <td class="adult">Adults &amp; Teens</td>
-                    <td class="youth_adv">Youth Advanced<br/>(6:05-6:50)</td>
+                    <td class="adult">Adults &amp; Teens<br/>(6:10-7:10)</td>
+                    <td class="youth_adv">Youth Advanced<br/>(6:05-6:55)</td>
                     <td></td>
-                    <td class="youth_adv">Youth Advanced<br/>(6:05-6:50)</td>
+                    <td class="youth_adv">Youth Advanced<br/>(6:05-6:55)</td>
                     <td></td>
                 </tr>
                 <tr>
@@ -160,7 +181,6 @@ require 'includes/header.php';
                     <td></td>
                 </tr>
             </table>
--->
             
         </div>
     </div>
