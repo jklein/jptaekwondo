@@ -166,7 +166,7 @@ require 'includes/header.php';
                 </tr>
                 <tr>
                     <td>6:00-7:00</td>
-                    <td class="adult">Adults &amp; Teens<br/>(6:10-7:10)</td>
+                    <td class="adult">Adults &amp; Teens<br/>(6:20-7:20)</td>
                     <td class="youth_adv">Youth Advanced<br/>(6:05-6:55)</td>
                     <td></td>
                     <td class="youth_adv">Youth Advanced<br/>(6:05-6:55)</td>
