@@ -42,8 +42,12 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #B2D1FF;
 }
 .grid_schedule .youth_adv {
-    background-color: #ccc;
+    background-color: #dd9595;
 }
+.grid_schedule .private {
+    background-color: #5886d4;
+}
+
 .grid_schedule .blank td {
     background-color: #636363;
     padding:2px;
