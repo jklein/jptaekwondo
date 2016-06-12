@@ -1,15 +1,13 @@
 <?php
 
-$page_name = 'Spring Schedule - February 1st, 2016 to June 20th, 2016';
-// $secondary_header = 'Summer Schedule - July 6th 2015 to August 28st 2015';
+$page_name = 'Summer Schedule - July 11th to September 2nd 2016';
+$secondary_header = 'Spring Schedule - February 1st, 2016 to June 20th, 2016';
 
 require 'includes/header.php';
 ?>
 <section class="schedule">
     <div class="container">
         <div class="row">
-
-            <!-- Summer
             <table class="grid_schedule">
                 <tr>
                     <th>&nbsp;</th>
@@ -87,7 +85,6 @@ require 'includes/header.php';
                     </div>
                 </div>
             </div>
-            -->
 
             <table class="grid_schedule">
                 <tr>
@@ -172,7 +169,6 @@ require 'includes/header.php';
                     <td></td>
                 </tr>
             </table>
-            
         </div>
     </div>
 </section>
