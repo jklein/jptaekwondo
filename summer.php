@@ -1,5 +1,5 @@
 <?php
-$page_name = 'SUMMER PROGRAM 2015';
+$page_name = 'SUMMER PROGRAM';
 
 require 'includes/header.php';
 ?>
@@ -90,7 +90,7 @@ require 'includes/header.php';
                 <li>Early Bird : 5% discount (Full paid, until February 15)</li>
                 <li>Family Discount : 2nd member and thereafter 5% discount.</li>
                 <li>$100 Deposit is required to hold space (the deposit is not refundable after March 31st).</li>
-                <li>The Summer Taekwondo tuition must be paid in full by June 15, 2015.
+                <li>The Summer Taekwondo tuition must be paid in full by June 15.
                 Tuition will not be refundable after June 15 under any circumstances.</li>
                 <li>If we have fewer than 5 sign-ups per session, we will cancel that session.</li>
             </ul>
