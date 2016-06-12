@@ -55,7 +55,7 @@ require 'includes/header.php';
                     <td class="under_seven">Little Tigers<br />(under 7 years old)</td>
                     <td></td>
                     <td></td>
-                    <td class="under_seven">Little Tigers<br />(under 7 years old)</td>
+                    <td></td>
                     <td></td>
                 </tr>
                 <tr>
