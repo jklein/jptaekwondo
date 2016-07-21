@@ -20,7 +20,8 @@ $years_old =  date_diff(date_create(), date_create('February 1st, 2010'))->forma
         the Korean Tigers Demonstration Team. He has taught students of all ages, from
         children and youth (Namsan International Kindergarten, Yongsan International School) to university
         students and professionals (Yonsei University, UC-Berkeley, Brown University, Icelandic National Team).
-        He currently teaches the Harvard University Taekwondo Club in addition to his private studio.</p>
+        He currently teaches the <a href="http://www.hcs.harvard.edu/~htkd/">Harvard University Taekwondo Club</a>
+        in addition to his private studio.</p>
 
         <p>Master Jang lives in West Roxbury with his wife and <?php echo $years_old;?> daughter. When not teaching, he
         enjoys spending time with his family, fiddling around with his MacBook Pro, and playing the electric
