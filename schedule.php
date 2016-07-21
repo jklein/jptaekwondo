@@ -1,7 +1,7 @@
 <?php
 
 $page_name = 'Summer Schedule - July 11th to September 2nd 2016';
-$secondary_header = 'Spring Schedule - February 1st, 2016 to June 20th, 2016';
+#$secondary_header = 'Spring Schedule - February 1st, 2016 to June 20th, 2016';
 
 require 'includes/header.php';
 ?>
@@ -75,7 +75,7 @@ require 'includes/header.php';
                     <td></td>
                 </tr>
             </table>
-
+<!--
             <div class="container section-page-header">
                 <div class="row">
                     <div class="span12">
@@ -169,6 +169,8 @@ require 'includes/header.php';
                     <td></td>
                 </tr>
             </table>
+-->
+
         </div>
     </div>
 </section>
