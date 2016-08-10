@@ -1,0 +1,117 @@
+/* Schedule page */
+.grid_schedule {
+    width:100%;
+    background-color: #fff;
+    text-align:center;
+}
+
+.grid_schedule th,
+.grid_schedule td {
+    padding:15px;
+    font-size: 15px;
+    border:1px solid gray;
+}
+
+.grid_schedule .under_seven {
+    background-color:#ffff99;
+}
+.grid_schedule .little_tigers_a {
+    background-color: #66ff66;
+}
+.grid_schedule .kids_a {
+    background-color:#CCFFFF;
+}
+.grid_schedule .kids_b {
+    background-color:#B2D1FF;
+}
+.grid_schedule .kids_c {
+    background-color:#B2D1FF;
+}
+.grid_schedule .adult {
+    background-color:#99E699;
+}
+.grid_schedule .kids_sparring {
+    background-color: #B2D1FF;
+}
+.grid_schedule .youth_adv_a {
+    background-color: #dd9595;
+}
+.grid_schedule .youth_adv_b {
+    background-color: #cc0000;
+    color:white;
+}
+.grid_schedule .youth_adv {
+    background-color: #FFE0B2;
+}
+.grid_schedule .private {
+    background-color: #5886d4;
+}
+
+.grid_schedule .blank td {
+    background-color: #636363;
+    padding:2px;
+}
+.grid_schedule .blank .birthday {
+    background-color: white;
+}
+/* End Schedule page */
+
+/* Summer schedule */
+.summer {
+    width:50%;
+    background-color: #fff;
+    text-align:center;
+    margin: 10px auto;
+}
+
+.summer th,
+.summer td {
+    padding:5px;
+    border:1px solid gray;
+}
+/* End summer schedule */
+
+/* Other CSS */
+.navbar .brand {
+    padding:0;
+}
+.carousel .item > img {
+    margin:auto;
+}
+.contact .alert {
+    margin-left: 30px;
+}
+.text-center {
+    text-align: center;
+}
+.text-left {
+    text-align: left;
+}
+.text-center h5 {
+    float:left;
+    margin-left:12%;
+}
+.c {
+    clear:both;
+}
+.jp_tkd_context {
+    width:800px;
+}
+.jp_tkd_context .row {
+    margin:30px 0;
+}
+
+.instructor_bio{
+    padding:10px;
+}
+.img-left {
+    float:left;
+    margin-right:10px;
+}
+.img-right {
+    float:right;
+    margin-left:10px;
+}
+.center_paragraph {
+    margin-top:65px;
+}

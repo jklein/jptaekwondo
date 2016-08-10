@@ -17,6 +17,7 @@ date_default_timezone_set('America/New_York');
         <link href="assets/rounde_bootstrap/css/bootstrap.css" rel="stylesheet">
         <link href="assets/rounde_bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
         <link href="assets/rounde_bootstrap/css/style.css" rel="stylesheet">
+        <link href="assets/css/jptaekwondo.css" rel="stylesheet">
         <link rel="icon" href="/favicon.ico" type="image/x-icon" />
 
         <script>

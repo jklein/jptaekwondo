@@ -1,7 +1,7 @@
 <?php
 
 $page_name = 'Summer Schedule - July 11th to September 2nd 2016';
-#$secondary_header = 'Spring Schedule - February 1st, 2016 to June 20th, 2016';
+$secondary_header = 'Fall Schedule - September 6th, 2016 to February 4th, 2017';
 
 require 'includes/header.php';
 ?>
@@ -75,7 +75,7 @@ require 'includes/header.php';
                     <td></td>
                 </tr>
             </table>
-<!--
+
             <div class="container section-page-header">
                 <div class="row">
                     <div class="span12">
@@ -129,48 +129,33 @@ require 'includes/header.php';
                     </td>
                 </tr>
                 <tr>
-                    <td>3:50-4:30</td>
-                    <td class="kids_a">Youth<br />(4:00-4:45)</td>
-                    <td></td>
-                    <td class="under_seven">Little Tigers<br />(under 7 years old)</td>
-                    <td></td>
+                    <td rowspan="4">3:50-7:20</td>
+                    <td class="kids_a">Youth<br />(3:45-4:30)</td>
+                    <td class="little_tigers_a">Little Tigers A<br />(4:00-4:30)</td>
+                    <td class="under_seven">Little Tigers<br />(3:50-4:30)</td>
+                    <td class="kids_a">Youth<br />(3:50-4:35)</td>
+                </tr>
+                <tr>
+                    <td class="youth_adv_a">Youth Advanced A<br/>(4:30-5:15)</td>
+                    <td class="kids_a">Youth<br/>(4:30-5:15)</td>
+                    <td class="kids_a">Youth<br/>(4:30-5:15)</td>
+                    <td class="under_seven">Little Tigers<br />(4:35-5:15)</td>
+                    <td>Beginner<br/>Private</td>
+                </tr>
+                <tr>
+                    <td class="youth_adv_b">Youth Advanced B<br/>(5:15-6:00)</td>
+                    <td class="youth_adv">Youth Advanced<br/>(5:15-6:00)</td>
+                    <td class="youth_adv">Youth Advanced<br/>(5:15-6:00)</td>
+                    <td class="youth_adv_a">Youth Advanced A<br/>(5:15-6:00)</td>
                     <td></td>
                 </tr>
                 <tr>
-                    <td>4:30-5:15</td>
-                    <td class="youth_adv">Youth Advanced<br/>(4:45-5:30)</td>
-                    <td class="under_seven">Little Tigers<br />(under 7 years old)</td>
-                    <td class="kids_a">Youth</td>
-                    <td class="under_seven">Little Tigers<br />(under 7 years old)</td>
-                    <td class="private">Beginner<br/>Private</td>
-                </tr>
-                <tr>
-                    <td>5:15-6:00</td>
-                    <td class="youth_adv">Youth Advanced<br/>(5:35-6:20)</td>
-                    <td class="kids_a">Youth</td>
-                    <td class="youth_adv">Youth Advanced</td>
-                    <td class="kids_a">Youth</td>
+                    <td class="adult">Adults &amp; Teens<br/>(6:00-7:00)</td>
                     <td></td>
-                </tr>
-                <tr>
-                    <td>6:05-6:50</td>
-                    <td class="adult">Adults &amp; Teens<br/>(6:20-7:20)</td>
-                    <td class="youth_adv">Youth Advanced</td>
-                    <td></td>
-                    <td class="youth_adv">Youth Advanced</td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>7:00-8:00</td>
-                    <td></td>
-                    <td class="adult">Adults &amp; Teens</td>
-                    <td></td>
-                    <td class="adult">Adults &amp; Teens</td>
-                    <td></td>
+                    <td class="adult">Adults &amp; Teens<br/>(6:00-7:00)</td>
+                    <td class="youth_adv_b">Youth Advanced B<br/>(6:00-6:45)</td>
                 </tr>
             </table>
--->
-
         </div>
     </div>
 </section>
